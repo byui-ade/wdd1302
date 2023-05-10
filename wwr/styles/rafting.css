@@ -1,0 +1,43 @@
+@import url('');
+@import url('');
+
+:root {
+    --primary-color: #8B575C;
+    --secondary-color:#D6EDFF;
+    --accent1-color: #84DCC6;
+    --accent2-color: #ACD7EC ;
+
+    --heading-font: "Poppins";
+    --paragraph-font:'Anek Bangla', sans-serif;
+
+    --headline-color-on-white: #8B575C;
+    --headline-color-on-color:white;
+    --paragraph-color-on-white: #8B575C;
+    --paragraph-color-on-color: black;
+    --paragraph-background-color: #ACD7EC;
+    --nav-link-color: white;
+    --nav-background-color: #8B575C;
+    --nav-hover-link-color: black;
+    --nav-hover-background-color: #D6EDFF;
+}
+
+.hero img {
+    display: block;
+    width: 100;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    float: right;
+
+}
+
+
+
+
+    
