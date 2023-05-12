@@ -1,43 +1,76 @@
-@import url('');
-@import url('');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-:root {
-    --primary-color: #8B575C;
-    --secondary-color:#D6EDFF;
-    --accent1-color: #84DCC6;
-    --accent2-color: #ACD7EC ;
-
-    --heading-font: "Poppins";
-    --paragraph-font:'Anek Bangla', sans-serif;
-
-    --headline-color-on-white: #8B575C;
-    --headline-color-on-color:white;
-    --paragraph-color-on-white: #8B575C;
-    --paragraph-color-on-color: black;
-    --paragraph-background-color: #ACD7EC;
-    --nav-link-color: white;
-    --nav-background-color: #8B575C;
-    --nav-hover-link-color: black;
-    --nav-hover-background-color: #D6EDFF;
-}
-
-.hero img {
-    display: block;
-    width: 100;
-    height: auto;
+body{
+   font-family: 'Open Sans',serif;
 }
 
 h1 {
-    position: absolute;
+    font-size: 30px;
+    text-align: center;
 }
 
-article {
-    position: absolute;
-    float: right;
-
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
 
+html {
+    background-color:#000000;
+}
 
+body {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
 
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+}
 
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: #FF7F50;
+    font-size: 20px;
+    text-align:left;
+}
+
+#social_icons a {
+    text-decoration: none!important; 
+}
+
+div {
+    width: 20em;
+    text-align: center;
+    position: relative;
+ }
+ 
+ div img {
+     width: 200px;
+     height: auto;
+ }
+ 
+ div h1 {
+ position: absolute;
+ top: 20px;
+ }
+
+ .hero img {
+    display: block;
+    width: 150%;
+    height: auto;
+ }
+ 
+  
+  
+  
+  
+  
+  
     
