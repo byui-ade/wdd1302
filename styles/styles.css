@@ -46,11 +46,6 @@ p {
     margin: 1rem;
 }
 
-aside {
-   width: 20em;
-   text-align: center;
-   position: relative;
-}
 
 h2 {
     display: block;
@@ -74,6 +69,13 @@ position: absolute;
 top: 5px;
 left: 125px;
 }
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+ }
+ 
 
 p {padding: 0;}
 
