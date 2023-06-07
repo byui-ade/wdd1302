@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <Head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Page| Afolabi Ademolu</title>
+        <meta name="description" content="The white water rafting project home page includes the white water rafting full width image with heaing massage, newsletter sign up form, and call to action with links..">
+        <meta name="author" content="Afolabi Ademolu">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </Head>
+    <body>
+        <div class="header">
+            <img src="images/logo.png" alt="Rafting Project Logo" style="width: 100px;">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="https://byui-ade.github.io/wdd130/wwr/index.html">Home</a></li>
+                    <li><a href="https://byui-ade.github.io/wdd130/wwr/about.html">About Us</a></li>
+                    <li><a href="https://byui-ade.github.io/wdd130/wwr/trips.html">Trips</a></li>
+                    <li><a href="https://byui-ade.github.io/wdd130/wwr/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="biggy">
+                <h1>Experiencing Advantage Grand Canyon Rafting</h1>
+                <img src="images/motoraft.jpg" alt="home page main image">
+            </div>
+            <section>
+                <h2>Rafting Sign Up Form</h2>
+                <button onclick="document.getElementById('id01') .style.display='block'" style="width:auto;">Sign Up Now</button>
+
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                      <div class="container">
+                        <p>Please fill in this form to create an account.</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                  
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                        </label>
+                  
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                  
+                        <div class="clearfix">
+                          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                          <button type="submit" class="signupbtn">Sign Up</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </section>
+                <section>
+                    <div class="button-wrapper">
+                        <h2> For Unforgertable About Trips! Visit TRIPS Page</h2>
+                        <a class="button cta-button" href="https://byui-ade.github.io/wdd130/wwr/trips.html">Visit Trips Page</a>
+                    </div>
+                </section>
+            </main>
+            <div class="footer">
+                <p>&copy; 2023  |  White Water Rafting   |  Afolabi Ademolu </p>
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                        <img class="facebook" src="images/facebook.png" alt="">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img class="twitter" src="images/twitter.png" alt="">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img class="instagram" src="images/instagram.jpg" alt="">
+                    </a>
+                </nav>   
+             </div> 
+
+    </body>
+    </html>
